@@ -4,9 +4,14 @@
       width="100%"
       src="/assets/nodes.png"
       alt="">
-    <div class="card-content">
-      <h1>Welcome!</h1>
-      <p>Select a route above to see what different router-outlets produce.</p>
-    </div>
+    <md-card-content>
+      <md-card-title>Welcome to Angular 2 named routes</md-card-title>
+      <md-card-subtitle>
+        Select a route above or click the button below to see what different router-outlets produce.
+      </md-card-subtitle>
+      <md-card-actions>
+        <button [routerLink]="['/speakers', {outlets: {list: ['list'], bio: ['none']}}]" md-raised-button class="md-primary">Speakers</button>
+      </md-card-actions>
+    </md-card-content>
   </md-card>
 </div>

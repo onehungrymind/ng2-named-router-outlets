@@ -1,2 +1,7 @@
-<h1>Bio</h1>
-<p>Bacon ipsum dolor amet landjaeger venison chuck prosciutto beef. Ham hock boudin shoulder strip steak jowl hamburger prosciutto shank turkey tail brisket doner pork loin kevin. Short ribs capicola meatloaf corned beef tenderloin pork loin tri-tip t-bone biltong leberkas pork chop andouille pork beef filet mignon. Leberkas venison porchetta beef ribs tail. Turkey meatloaf pork chop rump t-bone, chicken tongue burgdoggen corned beef strip steak ham. Porchetta capicola boudin burgdoggen.</p>
+<div *ngIf="!currentSpeaker">
+  <md-card-title>Please select a speaker</md-card-title>
+  <md-card-subtitle>No speaker selected</md-card-subtitle>
+</div>
+
+<md-card-title>{{currentSpeaker?.name}}</md-card-title>
+<md-card-subtitle>{{currentSpeaker?.bio}}</md-card-subtitle>

@@ -1,7 +1,8 @@
-<h1>Speakers</h1>
+<md-card-title>Speakers</md-card-title>
 <md-grid-list cols="3" gutterSize="4px">
   <md-grid-tile
     *ngFor="let speaker of speakers"
     [style.background-image]="'url(assets/' + speaker.src + ')'"
+    (click)="showBio(speaker.id)"
   ></md-grid-tile>
 </md-grid-list>

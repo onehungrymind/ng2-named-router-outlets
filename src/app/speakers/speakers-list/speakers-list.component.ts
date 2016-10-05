@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router }  from '@angular/router';
+import { SpeakersService } from '../shared';
 
 @Component({
   selector: 'app-speakers-list',
@@ -6,18 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./speakers-list.component.css']
 })
 export class SpeakersListComponent implements OnInit {
-  speakers: {}[] = [
-    {name: 'Luke Ruebbelke', src: 'luke.jpg', bio: 'Luke bio'},
-    {name: 'Ben Lesh', src: 'ben.jpg', bio: 'Ben bio'},
-    {name: 'Gleb Bahmutov', src: 'gleb.jpg', bio: 'Gleb bio'},
-    {name: 'Jeff Whelpley', src: 'jeff.jpg', bio: 'Jeff bio'},
-    {name: 'Pascal Precht', src: 'pascal.jpg', bio: 'Pascal bio'},
-    {name: 'Victor Savkin', src: 'victor.jpg', bio: 'Victor bio'}
-  ];
+  speakers: {}[] = this.service.getSpeakers();
 
-  constructor() { }
+  constructor(private router: Router, private service: SpeakersService) { }
 
   ngOnInit() {
   }
 
+  showBio(id) {
+    this.router.navigate(['/speakers', {outlets: {'bio': [id]}}]);
+  }
 }

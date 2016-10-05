@@ -2,8 +2,8 @@
   Angular 2 named routes
 
   <span class="app-toolbar-filler"></span>
-  <button routerLink="home" md-button>Home <small>(top-level route)</small></button>
-  <button routerLink="speakers" md-button>Speakers <small>(sibling routes)</small></button>
+  <button routerLink="home" md-button>Home</button>
+  <button [routerLink]="['/speakers', {outlets: {'list': ['list'], 'bio': ['none']}}]" md-button>Speakers</button>
 </md-toolbar>
 
 <div class="app-content">

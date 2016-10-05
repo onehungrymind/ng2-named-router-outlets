@@ -8,6 +8,14 @@ md-card {
   display: inline-block;
 }
 
-.card-content {
+md-card-content {
   padding: 0 24px 24px;
+}
+
+img {
+  border-bottom: 5px solid #c2185b;
+}
+
+md-card-actions {
+  margin: 0 !important;
 }
