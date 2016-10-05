@@ -1,0 +1,7 @@
+<h1>Speakers</h1>
+<md-grid-list cols="3" gutterSize="4px">
+  <md-grid-tile
+    *ngFor="let speaker of speakers"
+    [style.background-image]="'url(assets/' + speaker.src + ')'"
+  ></md-grid-tile>
+</md-grid-list>

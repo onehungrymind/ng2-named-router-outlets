@@ -1,26 +1,11 @@
-<md-sidenav-layout>
-  <md-toolbar color="primary">
-    Angular 2 named routes
+<md-toolbar color="primary">
+  Angular 2 named routes
 
-    <span class="app-toolbar-filler"></span>
-    <button md-button>TOGGLE DARK THEME</button>
-  </md-toolbar>
+  <span class="app-toolbar-filler"></span>
+  <button routerLink="home" md-button>Home <small>(top-level route)</small></button>
+  <button routerLink="speakers" md-button>Speakers <small>(sibling routes)</small></button>
+</md-toolbar>
 
-  <div class="app-content">
-
-    <md-card>
-      <button md-button>FLAT</button>
-      <button md-raised-button md-tooltip="This is a tooltip!">RAISED</button>
-      <button md-raised-button color="primary">PRIMARY RAISED</button>
-      <button md-raised-button color="accent">ACCENT RAISED</button>
-    </md-card>
-
-    <md-card>
-      <md-checkbox>Unchecked</md-checkbox>
-      <md-checkbox [checked]="true">Checked</md-checkbox>
-      <md-checkbox [indeterminate]="true">Indeterminate</md-checkbox>
-      <md-checkbox [disabled]="true">Disabled</md-checkbox>
-    </md-card>
-
-  </div>
-</md-sidenav-layout>
+<div class="app-content">
+  <router-outlet></router-outlet>
+</div>

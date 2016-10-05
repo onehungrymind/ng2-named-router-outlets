@@ -3,4 +3,9 @@
 
 body {
   margin: 0;
+  background-color: #fafafa;
+}
+
+md-card {
+  margin: 15px;
 }

@@ -1,0 +1,13 @@
+.card-wrapper {
+  text-align: center;
+}
+
+md-card {
+  max-width: 550px;
+  padding: 0;
+  display: inline-block;
+}
+
+.card-content {
+  padding: 0 24px 24px;
+}
