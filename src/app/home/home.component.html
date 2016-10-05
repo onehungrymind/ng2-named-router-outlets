@@ -10,7 +10,10 @@
         Select a route above or click the button below to see what different router-outlets produce.
       </md-card-subtitle>
       <md-card-actions>
-        <button [routerLink]="['/speakers', {outlets: {list: ['list'], bio: ['none']}}]" md-raised-button class="md-primary">Speakers</button>
+        <button
+          [routerLink]="['/speakers', {outlets: {list: ['speakersList'], bio: ['none']}}]"
+          md-raised-button class="md-primary"
+        >Speakers</button>
       </md-card-actions>
     </md-card-content>
   </md-card>

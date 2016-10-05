@@ -1,9 +1,12 @@
-<md-toolbar color="primary">
+<md-toolbar color="primary" class="md-elevation-z2">
   Angular 2 named routes
 
   <span class="app-toolbar-filler"></span>
   <button routerLink="home" md-button>Home</button>
-  <button [routerLink]="['/speakers', {outlets: {'list': ['list'], 'bio': ['none']}}]" md-button>Speakers</button>
+  <button
+    [routerLink]="['/speakers', {outlets: {'list': ['speakersList'], 'bio': ['none']}}]"
+    md-button
+  >Speakers</button>
 </md-toolbar>
 
 <div class="app-content">

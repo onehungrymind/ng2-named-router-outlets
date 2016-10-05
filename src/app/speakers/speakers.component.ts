@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { SpeakersService } from './shared';
 
 @Component({
@@ -7,11 +7,4 @@ import { SpeakersService } from './shared';
   styleUrls: ['./speakers.component.css'],
   providers: [SpeakersService]
 })
-export class SpeakersComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class SpeakersComponent{}
