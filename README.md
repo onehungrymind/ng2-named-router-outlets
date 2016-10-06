@@ -1,3 +1,4 @@
+![image](https://cloud.githubusercontent.com/assets/1544557/19157810/6068cc1a-8b9b-11e6-8505-4c5636ed7008.png)
 # ng2-named-routes
 
 An app that shows conference speakers and their bios. The purpose of the project is to showcase named parallel routes using the Angular 2 Component Router. It is built using the Angular CLI.
