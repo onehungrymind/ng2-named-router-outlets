@@ -8,7 +8,7 @@ An app that shows conference speakers and their bios. The purpose of the project
 * Run the following commands, starting in your preferred projects directory:
 ```bash
 git clone https://github.com/onehungrymind/ng2-named-routes.git
-cd ng2-named-routes
+cd ng2-named-router-outlets
 npm i
 npm start # or ng serve
 ```
