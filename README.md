@@ -1,7 +1,7 @@
 ![image](https://cloud.githubusercontent.com/assets/1544557/19240137/f65169f6-8ebd-11e6-8b86-fa189a65b744.png)
-# Named Routes in Angular 2
+# Named Router Outlets in Angular 2
 
-An app that shows conference speakers and their bios. The purpose of the project is to showcase named parallel routes using the Angular 2 Component Router. It is built using the Angular CLI.
+An app that shows conference speakers and their bios. The purpose of the project is to showcase named parallel router outlets using the Angular 2 Component Router. It is built using the Angular CLI.
  
 ## Getting started
 * You will need to have NodeJS and NPM installed via [NodeJS.org](https://nodejs.org)
