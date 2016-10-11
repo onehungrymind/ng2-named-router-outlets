@@ -3,10 +3,10 @@
 
   <span class="app-toolbar-filler"></span>
   <button routerLink="home" md-button>Home</button>
-  <button
-    [routerLink]="['/speakers', {outlets: {'list': ['speakersList'], 'bio': ['none']}}]"
-    md-button
-  >Speakers</button>
+  <button md-button
+    [routerLink]="['/speakers', {outlets: {'list': ['speakersList'], 'bio': ['none']}}]">
+    Speakers
+  </button>
 </md-toolbar>
 
 <div class="app-content">

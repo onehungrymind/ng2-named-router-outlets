@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
-import { Ng2NamedRoutesRoutingModule } from './app-routing.module';
+import { RoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -24,7 +24,7 @@ import { BioComponent } from './speakers/bio/bio.component';
     FormsModule,
     HttpModule,
     MaterialModule.forRoot(),
-    Ng2NamedRoutesRoutingModule
+    RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
