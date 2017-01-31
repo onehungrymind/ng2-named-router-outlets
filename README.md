@@ -7,7 +7,7 @@ An app that shows conference speakers and their bios. The purpose of the project
 * You will need to have NodeJS and NPM installed via [NodeJS.org](https://nodejs.org)
 * Run the following commands, starting in your preferred projects directory:
 ```bash
-git clone https://github.com/onehungrymind/ng2-named-routes.git
+git clone https://github.com/onehungrymind/ng2-named-route-outlets.git
 cd ng2-named-router-outlets
 npm i
 npm start # or ng serve
