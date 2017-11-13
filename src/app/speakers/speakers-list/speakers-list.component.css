@@ -1,4 +1,4 @@
-md-grid-tile {
+mat-grid-tile {
   background-size: contain;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
@@ -13,7 +13,7 @@ md-grid-tile {
   border: 1px solid #c2185b;
 }
 
-md-grid-tile:hover, md-grid-tile.selected {
+mat-grid-tile:hover, mat-grid-tile.selected {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(0.99);

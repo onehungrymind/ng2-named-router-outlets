@@ -3,7 +3,7 @@
   flex-direction: row;
 }
 
-md-card {
+mat-card {
   flex: 1 1 50%;
   width: 50%;
 }
