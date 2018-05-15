@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@angular/material/core/theming/prebuilt/pink-bluegrey.css';
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 
 body {
   margin: 0;
   background-color: #fafafa;
 }
 
-md-card {
+mat-card {
   margin: 15px;
 }
